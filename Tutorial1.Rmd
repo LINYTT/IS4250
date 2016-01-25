@@ -1,0 +1,23 @@
+---
+title: "tutorial 1"
+author: "LIN YUTING"
+date: "January 25, 2016"
+output: md_document
+---
+
+```{r,message=FALSE,echo=FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+```{r, echo=FALSE}
+qplot(speed, dist, data=cars)
+```
+
+```{r,echo=FALSE}
+speed4_cars <-
+  cars %>%
+  filter(speed == 4)
+
+print(speed4_cars)
+```

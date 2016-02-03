@@ -1,4 +1,4 @@
-![](Tutorial1_files/figure-markdown_strict/unnamed-chunk-2-1.png)<!-- -->
+![](Tutorial1_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
     ##   speed dist
     ## 1     4    2
